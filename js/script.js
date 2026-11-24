@@ -38,7 +38,7 @@ const matriculaAtiva = true;
 
 console.log("--- Desafio 1: Dados Cadastrais ---");
 console.log("Nome do Aluno:", nomeCompleto);
-console.log("Curso:", curso);
+console.log("Curso:", curso); 
 console.log("idade:" ,idade);
 console.log("Matricula Ativa?",matriculaAtiva);
 
@@ -64,7 +64,10 @@ const nota2 = 7.0 ;
 const nota3 = 6.3 ;
 const nota4 = 7.9 ;
 
-let media = nota1+nota2+nota3+nota4 / 4 ;
+let media = (nota1+nota2+nota3+nota4) / 4 ;
+console.log(media);
+
+media = media+ 0.5; 
 console.log(media);
 
 
